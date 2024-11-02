@@ -4,3 +4,6 @@
 # Пример: ввод N = 6
 # [20, -90, 15, -34, 10, 0]
 # Вывод: [20, 15, 10, -90, -34, 0]
+from random import randint
+A = [ randint(20,100)
+      for x in range(10)]

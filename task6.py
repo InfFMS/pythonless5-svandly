@@ -4,3 +4,12 @@
 # Пример: ввод N = 6
 # [1,2,3,4,5,6]
 # Вывод: [3,2,1,6,5,4]
+from random import randint
+N = int(input())
+A = [randint(0, 1000) for _ in range(2*N)]
+print(A)
+B = A[0:N:]
+C = A[N::]
+l1= B[::-1]
+l2= C[::-1]
+print(l1 + l2)
